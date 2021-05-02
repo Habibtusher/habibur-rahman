@@ -1,0 +1,8 @@
+.backGround{
+    background-image: linear-gradient(#e2ccd2,#7d91f7,#e999a9 );
+}
+
+.social svg:hover{
+    font-size: 40px;
+    color: honeydew;
+}

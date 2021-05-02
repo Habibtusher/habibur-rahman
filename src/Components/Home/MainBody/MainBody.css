@@ -1,0 +1,16 @@
+
+.typeText{
+    font-size: 35px;
+    font-weight: bold;
+    color: gainsboro;
+}
+.vv{
+    padding-bottom: 150px;
+}
+.name{
+    font-size: 50px;
+}
+.mainBody{
+    background-image: linear-gradient(#e999a9, #7d91f7,#e2ccd2);
+    
+}
