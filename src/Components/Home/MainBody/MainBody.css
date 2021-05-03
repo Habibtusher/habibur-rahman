@@ -2,7 +2,7 @@
 .typeText{
     font-size: 35px;
     font-weight: bold;
-    color: gainsboro;
+    color: rgb(236, 11, 11);
 }
 .vv{
     padding-bottom: 150px;
@@ -11,6 +11,6 @@
     font-size: 50px;
 }
 .mainBody{
-    background-image: linear-gradient(#e999a9, #7d91f7,#e2ccd2);
+    background-image: linear-gradient(#e999a9, #a4b2f5,#e2ccd2);
     
 }

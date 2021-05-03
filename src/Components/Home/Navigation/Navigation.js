@@ -9,11 +9,11 @@ const Navigation = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav >
-      <Nav.Link style={{color:"#black"}}  href="/">Home</Nav.Link>
-      <Nav.Link  href="/allProject">Projects</Nav.Link>
-      <Nav.Link  href="/blog">Blogs</Nav.Link>
-      <Nav.Link  href="/contact">Contact</Nav.Link>
-      <Nav.Link  href="/resume">Resume</Nav.Link>
+      <Nav.Link style={{color:"black"}}  href="/">Home</Nav.Link>
+      <Nav.Link style={{color:"black"}}  href="/allProject">Projects</Nav.Link>
+      <Nav.Link style={{color:"black"}}  href="/blog">Blogs</Nav.Link>
+      <Nav.Link style={{color:"black"}} href="/contact">Contact</Nav.Link>
+      <Nav.Link style={{color:"black"}}  href="/resume">Resume</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>

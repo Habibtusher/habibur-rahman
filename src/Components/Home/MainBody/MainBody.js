@@ -47,6 +47,7 @@ const MainBody = () => {
                   </div>
 
                     <button  className="btn btn-danger p-2 "> <a style={{textDecoration:"none",color:'white'}} href="https://drive.google.com/file/d/1Y1Pwql6stjE4Fe6FbsAhPZIRG1LR9tO3/view?usp=sharing"> Download Resume</a></button>
+               
                 </div>
             </div>
         </div>
