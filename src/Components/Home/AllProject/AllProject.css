@@ -1,0 +1,11 @@
+.description{
+    text-align: justify;
+    height: 150px;
+    color: white;
+    padding: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .description{
+        height: 195px;
+    }
+  }

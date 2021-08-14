@@ -1,18 +1,19 @@
 
 import React from 'react';
 import Typewriter  from 'typewriter-effect';
-import image from "../../../images/habib.png"
+import image from "../../../images/ha.png"
+
 import './MainBody.css'
 const MainBody = () => {
     return (
-       <div className="mainBody">
-            <div className="container mt-5 pt-5 vv">
+       <div className="mainBody container">
+            <div className="pt-5">
             <div className="row align-items-center">
-                <div className="col-md-5 mt-3">
+                <div className="col-md-6">
 
-                    <img src={image} alt="" height="300px" />
+                    <img src={image} alt="" height="350px" />
                 </div>
-                <div className="col-md-7 text-center">
+                <div className="col-md-6 text-center">
 
                 <div className="typeText mb-4">
                   <Typewriter
@@ -38,7 +39,7 @@ const MainBody = () => {
                        loop:true,
                        delay:120,
                        strings:[
-                           "Junior Web Developer"
+                           "Full-Stack Web Developer"
                             
                        ]
                    }}
@@ -46,7 +47,7 @@ const MainBody = () => {
                    />
                   </div>
 
-                    <button  className="btn btn-danger p-2 "> <a style={{textDecoration:"none",color:'white'}} href="https://drive.google.com/file/d/1Y1Pwql6stjE4Fe6FbsAhPZIRG1LR9tO3/view?usp=sharing"> Download Resume</a></button>
+                    <button  className="btn btn-danger p-2 "> <a style={{textDecoration:"none",color:'white'}} href="https://drive.google.com/uc?id=1_SUe69oVmYJNj70OUXv6Rkk_CYY2O5pL&export=download"> Download Resume</a></button>
                
                 </div>
             </div>

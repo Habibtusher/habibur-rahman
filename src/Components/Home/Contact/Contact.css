@@ -1,8 +1,9 @@
 .backGround{
-    background-image: linear-gradient(#e2ccd2,#7d91f7,#e999a9 );
+    
 }
-
+.contactForm{
+border-radius: 30px;
+}
 .social svg:hover{
     font-size: 40px;
-    color: honeydew;
 }

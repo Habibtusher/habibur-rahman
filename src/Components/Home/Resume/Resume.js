@@ -27,7 +27,7 @@ const Resume = () => {
                                 <h2 id="Name">Habibur Rahman</h2>
                             </div>
                             <p>To achieve high career growth through a continuous learning process and keep me dynamic, visionary and competitive with the changing scenario of the world.</p>
-                            <button className="btn btn-danger p-2 "> <a style={{ textDecoration: "none", color: 'white' }} href="https://drive.google.com/file/d/1Y1Pwql6stjE4Fe6FbsAhPZIRG1LR9tO3/view?usp=sharing"> Download Resume</a></button>
+                            <button className="btn btn-danger p-2 "> <a style={{ textDecoration: "none", color: 'white' }} href="https://drive.google.com/uc?id=1_SUe69oVmYJNj70OUXv6Rkk_CYY2O5pL&export=download"> Download Resume</a></button>
 
                         </div>
                         <div className="col-md-6 mt-0">

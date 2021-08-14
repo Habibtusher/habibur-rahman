@@ -16,14 +16,11 @@ function App() {
   return (
     <Router>
         <Switch>
-          <Route path="/allProject">
-          <AllProject></AllProject>
+          <Route path="#project">
+          <Home></Home>
           </Route>
-          <Route path="/blog">
-         <Blog></Blog>
-          </Route>
-          <Route path="/contact">
-         <Contacts></Contacts>
+          <Route path="#blog">
+          <Home></Home>
           </Route>
           <Route path="/resume">
          <Resume></Resume>

@@ -1,3 +1,5 @@
-.blogs{
-    background-image: linear-gradient(#e999a9, #7d91f7,#e2ccd2);
+.blogs:hover{
+    box-shadow:5px 5px 10px rgb(0,0,0,.1),-5px -5px 10px rgb(0,0,0,.1);
+    transform: scale(1.1);
+    transition-duration: .5s;
 }
