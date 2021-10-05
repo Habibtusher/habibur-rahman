@@ -1,11 +1,27 @@
 .description{
     text-align: justify;
-    height: 150px;
+    height: 140px;
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
-@media only screen and (max-width: 600px) {
+.button{
+text-decoration: none;
+width: 120px;
+padding: 5px;
+}
+@media only screen and (max-width: 765px) {
     .description{
-        height: 195px;
+        height: 150px;
     }
+    .button{   
+        width: 190px;
+        }
+  }
+  @media only screen and (min-width: 1200px) and (max-device-width: 1420px){
+    .description{
+        height: 185px;
+    }
+    .button{   
+        width: 100px;
+        }
   }

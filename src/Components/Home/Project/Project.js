@@ -33,7 +33,7 @@ const project = [
         image1: image4,
         image2: image5,
         image3: image6,
-        description: "  This site is about hiring Security guard, Gun man, Bodyguard etc. From This site you can easily get that kind of services. For get our services firstly you have to visit our site and select one services. If your are already logged in our site you will go to the payment page but if you not logged in you have to login first.",
+        description: "  This site is about hiring Security guard, Gun man, Bodyguard etc. From This site you can easily get that kind of services. For get our services firstly you have to visit our site and select one services.",
         gitLink: "https://github.com/Habibtusher/Creative-Agency-Client",
         liveLink: "https://creative-agency-968d3.web.app/"
     },
@@ -42,7 +42,7 @@ const project = [
         image1: image16,
         image2: image17,
         image3: image18,
-        description: " This site name is Doctors Portal buy using this site anyone can get appointment of available doctors. There are two login system one is for patient another Doctors. Patient can get appointment and see all appointments. Doctor can add doctor ,can view all appointments.",
+        description: " This site name is Doctors Portal buy using this site anyone can get appointment of available doctors. There are two login system one is for patient another Doctors. Patient can get appointment and see all appointments.",
         gitLink: "https://github.com/Habibtusher/doctors-portal-client",
         liveLink: "https://doctorsportal9.netlify.app/"
     },

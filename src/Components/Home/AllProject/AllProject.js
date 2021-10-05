@@ -28,16 +28,16 @@ const AllProject = ({ pro }) => {
                 </Carousel>
             </div>
             <div className="text-center cT">
-                <h3 style={{ color: "white",padding:"10px" }}>{pro.name}</h3>
+                <h3 style={{ color: "white",padding:"5px" }}>{pro.name}</h3>
                 <p className="description" >{pro.description}
                 </p>
 
                 <div className="row">
                     <div className="col-md-6">
-                        <button className="btn btn-outline-info" style={{ width: '180px', padding: "5px", marginBottom: '20px' }}><a style={{ textDecoration: 'none', color: 'white' }} href={pro.gitLink}> GitHub</a></button>
+                        <a className="btn btn-outline-info button" style={{ marginBottom: '20px'  }} href={pro.gitLink}>GitHub</a>
                     </div>
                     <div className="col-md-6 mb-3">
-                        <button className="btn btn-outline-info" style={{ width: '180px', padding: "5px" }}> <a style={{ textDecoration: 'none', color: 'white' }} href={pro.liveLink}> Live</a>  </button>
+                       <a className="btn btn-outline-info button" href={pro.liveLink}>Live</a>  
                     </div>
                 </div>
             </div>
