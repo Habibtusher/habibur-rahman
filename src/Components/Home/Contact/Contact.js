@@ -28,6 +28,7 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                    
                     <div class="col-md-5 col-sm-12 text-center p-5">
                         <div class="mt-3 social">
                         <a  style={{marginRight:'15px',fontSize:'35px',color:"black"}} href="https://www.facebook.com/habibur00.rahman"><FontAwesomeIcon icon={faFacebook} /></a>
@@ -40,6 +41,7 @@ const Contact = () => {
                         <FontAwesomeIcon style={{marginRight:'10px',fontSize:'20px ', marginTop:'10px'}} icon={faEnvelope} /><span style={{fontSize:'20px'}}>habiburrahmantusher7@gmail.com</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
