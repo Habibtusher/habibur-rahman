@@ -1,19 +1,21 @@
 import React from 'react';
-import Blogs from '../Blogs/Blogs';
+import ParticleBackground from '../../ParticleBackground';
 import Contact from '../Contact/Contact';
 import Header from '../Header/Header';
 import Project from '../Project/Project';
 import Blog from './../Blog/Blog';
 
-
 const Home = () => {
     return (
-        <div>
+        <>
+            {/* <div style={{position:"absolute"}} className="bg-dark">
+           <ParticleBackground></ParticleBackground>
+           </div> */}
           <Header></Header>
           <Project></Project>
           <Blog></Blog>
           <Contact></Contact>
-        </div>
+        </>
     );
 };
 

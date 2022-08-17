@@ -1,7 +1,31 @@
-Nav{
-    font-size: 17px;
-    font-weight: 600;
+/* Nav {
+  font-size: 18px;
+  font-weight: 600;
 }
-.navBack{
-    background: rgb(236, 247, 252);
+.nav-link {
+  background-color: rgb(112, 175, 175);
+  margin-right: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
+.nav-link:hover {
+  background-color: aqua;
+}
+.navBack {
+  background: rgb(236, 247, 252);
+}
+*/
+/* .navbar-dark .navbar-nav .nav-link {
+ color: white;
+} */
+.nav-link{
+  font-weight: 700;
+}
+@media only screen and (max-width: 992px) {
+    nav {
+      text-align: center;
+    }
+    .nav-link{
+        margin-top: 5px;
+    }
+  } 

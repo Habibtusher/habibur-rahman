@@ -14,6 +14,7 @@ import Resume from './Components/Home/Resume/Resume';
 
 function App() {
   return (
+    <div style={{backgroundColor:"#C0C0C0"}}>
     <Router>
         <Switch>
           <Route path="#project">
@@ -30,7 +31,7 @@ function App() {
            <Home></Home>
           </Route>
         </Switch>
-    </Router>
+    </Router></div>
   );
 }
 
